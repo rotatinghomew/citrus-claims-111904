@@ -86,5 +86,34 @@
     [
       "entry"
     ]
+  ],
+  "farm_credit": [
+    [
+      "statement",
+      "farm",
+      "week",
+      "posted_at",
+      "gross_available_cents",
+      "closed_at"
+    ],
+    [
+      "statement"
+    ]
+  ],
+  "recoveries": [
+    [
+      "entry",
+      "statement",
+      "direction",
+      "state",
+      "cents",
+      "known_at",
+      "related_waybill",
+      "original_entry"
+    ],
+    [
+      "entry",
+      "state"
+    ]
   ]
 }

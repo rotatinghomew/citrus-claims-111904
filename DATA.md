@@ -43,3 +43,15 @@ CSV 为 UTF-8，第一行为列名。日期为北京时间，时间带偏移；�
 财务已经执行的历史分录，不要求所有旧决定在新资料下仍正确。关联证据以分号分隔；新调整用办理凭证区别重送。
 
 字段：`entry`、`waybill`、`party`、`kind`、`cents`、`authorized_at`、`origin_refs`。
+
+### `farm_credit.csv`
+
+余额在同园同周共享，金额是已扣款之前的总可用额；不能挪用已关账时余量到后续周。
+
+字段：`statement`、`farm`、`week`、`posted_at`、`gross_available_cents`、`closed_at`。
+
+### `recoveries.csv`
+
+历史扣抵与返还执行流水；旧抵扣 K21 可以是后来受争议的事实。返还到账后按承办单指定周视同抵销以前占量，入账状态替代待付。
+
+字段：`entry`、`statement`、`direction`、`state`、`cents`、`known_at`、`related_waybill`、`original_entry`。

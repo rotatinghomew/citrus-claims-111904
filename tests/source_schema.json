@@ -1,0 +1,90 @@
+{
+  "scales": [
+    [
+      "ticket",
+      "rev",
+      "parcel",
+      "gross_kg",
+      "tare_kg",
+      "tolerance_kg",
+      "reported_at",
+      "replaces"
+    ],
+    [
+      "ticket",
+      "rev"
+    ]
+  ],
+  "movements": [
+    [
+      "operation",
+      "kind",
+      "parent",
+      "child",
+      "observed_min_kg",
+      "observed_max_kg",
+      "occurred_at"
+    ],
+    []
+  ],
+  "origins": [
+    [
+      "parcel",
+      "farm"
+    ],
+    [
+      "parcel"
+    ]
+  ],
+  "waybills": [
+    [
+      "waybill",
+      "parcel",
+      "destination",
+      "buyer",
+      "contract"
+    ],
+    [
+      "waybill"
+    ]
+  ],
+  "contracts": [
+    [
+      "contract",
+      "version",
+      "active_from",
+      "deductible_kg",
+      "cents_per_kg",
+      "cap_cents"
+    ],
+    [
+      "contract",
+      "version"
+    ]
+  ],
+  "claims": [
+    [
+      "notice",
+      "waybill",
+      "noticed_at",
+      "amount_kg"
+    ],
+    [
+      "notice"
+    ]
+  ],
+  "ledger": [
+    [
+      "entry",
+      "waybill",
+      "party",
+      "kind",
+      "cents",
+      "authorized_at",
+      "origin_refs"
+    ],
+    [
+      "entry"
+    ]
+  ]
+}

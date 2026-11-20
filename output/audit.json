@@ -1,0 +1,864 @@
+{
+  "W1": {
+    "waybill": "W1",
+    "buyer": "买方青",
+    "contract_now": {
+      "contract": "AG1",
+      "version": "2026秋",
+      "in_force_at_first_shipment": "2026-11-12T08:00:00+08:00",
+      "deductible_kg": 4.0,
+      "cents_per_kg": 590,
+      "cap_cents": 15000
+    },
+    "payments_then": [
+      {
+        "entry": "L11",
+        "paid_cents": 8260,
+        "authorized_at": "2026-11-13T11:00:00+08:00",
+        "documents_used": [
+          {
+            "ticket": "SA0",
+            "rev": 1,
+            "parcel": "A0",
+            "gross_kg": 713.0,
+            "tare_kg": 13.0,
+            "tolerance_kg": 2.0,
+            "net_kg": 700.0,
+            "low_kg": 698.0,
+            "high_kg": 702.0,
+            "reported_at": "2026-11-12T05:00:00+08:00",
+            "replaces": null
+          },
+          {
+            "ticket": "SA",
+            "rev": 1,
+            "parcel": "A",
+            "gross_kg": 508.0,
+            "tare_kg": 8.0,
+            "tolerance_kg": 2.0,
+            "net_kg": 500.0,
+            "low_kg": 498.0,
+            "high_kg": 502.0,
+            "reported_at": "2026-11-12T05:10:00+08:00",
+            "replaces": null
+          },
+          {
+            "ticket": "SB",
+            "rev": 1,
+            "parcel": "B",
+            "gross_kg": 327.0,
+            "tare_kg": 7.0,
+            "tolerance_kg": 2.0,
+            "net_kg": 320.0,
+            "low_kg": 318.0,
+            "high_kg": 322.0,
+            "reported_at": "2026-11-12T05:12:00+08:00",
+            "replaces": null
+          },
+          {
+            "ticket": "SM",
+            "rev": 1,
+            "parcel": "AB",
+            "gross_kg": 812.0,
+            "tare_kg": 10.0,
+            "tolerance_kg": 3.0,
+            "net_kg": 802.0,
+            "low_kg": 799.0,
+            "high_kg": 805.0,
+            "reported_at": "2026-11-12T05:33:00+08:00",
+            "replaces": null
+          },
+          {
+            "ticket": "S1",
+            "rev": 1,
+            "parcel": "P1",
+            "gross_kg": 490.0,
+            "tare_kg": 10.0,
+            "tolerance_kg": 2.0,
+            "net_kg": 480.0,
+            "low_kg": 478.0,
+            "high_kg": 482.0,
+            "reported_at": "2026-11-12T06:00:00+08:00",
+            "replaces": null
+          },
+          {
+            "ticket": "SD1",
+            "rev": 1,
+            "parcel": "D1",
+            "gross_kg": 465.0,
+            "tare_kg": 5.0,
+            "tolerance_kg": 1.0,
+            "net_kg": 460.0,
+            "low_kg": 459.0,
+            "high_kg": 461.0,
+            "reported_at": "2026-11-12T10:00:00+08:00",
+            "replaces": null
+          }
+        ],
+        "contract": {
+          "contract": "AG1",
+          "version": "2026秋",
+          "deductible_kg": 4.0,
+          "cents_per_kg": 590,
+          "cap_cents": 15000
+        },
+        "claims_visible_then": [
+          {
+            "notice": "N11",
+            "noticed_at": "2026-11-12T16:00:00+08:00",
+            "amount_kg": 13.0
+          },
+          {
+            "notice": "N12",
+            "noticed_at": "2026-11-13T09:00:00+08:00",
+            "amount_kg": 16.0
+          }
+        ],
+        "confirmed_kg_then": 17.0,
+        "entitlement_then_cents": 7670,
+        "difference_to_now_cents": 2950
+      }
+    ],
+    "documents_now": [
+      {
+        "ticket": "SA0",
+        "rev": 1,
+        "parcel": "A0",
+        "gross_kg": 713.0,
+        "tare_kg": 13.0,
+        "tolerance_kg": 2.0,
+        "net_kg": 700.0,
+        "low_kg": 698.0,
+        "high_kg": 702.0,
+        "reported_at": "2026-11-12T05:00:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "SA",
+        "rev": 1,
+        "parcel": "A",
+        "gross_kg": 508.0,
+        "tare_kg": 8.0,
+        "tolerance_kg": 2.0,
+        "net_kg": 500.0,
+        "low_kg": 498.0,
+        "high_kg": 502.0,
+        "reported_at": "2026-11-12T05:10:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "SB",
+        "rev": 1,
+        "parcel": "B",
+        "gross_kg": 327.0,
+        "tare_kg": 7.0,
+        "tolerance_kg": 2.0,
+        "net_kg": 320.0,
+        "low_kg": 318.0,
+        "high_kg": 322.0,
+        "reported_at": "2026-11-12T05:12:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "SM",
+        "rev": 1,
+        "parcel": "AB",
+        "gross_kg": 812.0,
+        "tare_kg": 10.0,
+        "tolerance_kg": 3.0,
+        "net_kg": 802.0,
+        "low_kg": 799.0,
+        "high_kg": 805.0,
+        "reported_at": "2026-11-12T05:33:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "S1",
+        "rev": 1,
+        "parcel": "P1",
+        "gross_kg": 490.0,
+        "tare_kg": 10.0,
+        "tolerance_kg": 2.0,
+        "net_kg": 480.0,
+        "low_kg": 478.0,
+        "high_kg": 482.0,
+        "reported_at": "2026-11-12T06:00:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "SD1",
+        "rev": 2,
+        "parcel": "D1",
+        "gross_kg": 460.0,
+        "tare_kg": 5.0,
+        "tolerance_kg": 1.0,
+        "net_kg": 455.0,
+        "low_kg": 454.0,
+        "high_kg": 456.0,
+        "reported_at": "2026-11-14T14:00:00+08:00",
+        "replaces": 1
+      }
+    ],
+    "now": {
+      "shortage_kg": {
+        "low": 22.0,
+        "high": 28.0
+      },
+      "confirmed_farm_kg": 0,
+      "unresolved_kg": 28.0,
+      "farms": {
+        "园丙": {
+          "low_kg": 0.0,
+          "high_kg": 0.0
+        },
+        "园乙": {
+          "low_kg": 0.0,
+          "high_kg": 28.0
+        },
+        "园甲": {
+          "low_kg": 0.0,
+          "high_kg": 28.0
+        }
+      },
+      "claims": [
+        {
+          "notice": "N11",
+          "noticed_at": "2026-11-12T16:00:00+08:00",
+          "amount_kg": 13.0
+        },
+        {
+          "notice": "N12",
+          "noticed_at": "2026-11-13T09:00:00+08:00",
+          "amount_kg": 16.0
+        }
+      ],
+      "entitlement_cents": 10620,
+      "paid_cents": 8260,
+      "balance_cents": 2360,
+      "pending_cents": 2360,
+      "next_cents": 2360,
+      "status": "可结算",
+      "quarantined": false
+    },
+    "orchard": [],
+    "corrections": [
+      {
+        "ticket": "SD1",
+        "from_rev": 1,
+        "to_rev": 2,
+        "reported_at": "2026-11-14T14:00:00+08:00",
+        "feasible": [
+          true,
+          true
+        ],
+        "change": {
+          "waybill": "W1",
+          "shortage_low_kg": [
+            17.0,
+            22.0
+          ],
+          "shortage_high_kg": [
+            23.0,
+            28.0
+          ],
+          "confirmed_farm_kg": [
+            0,
+            0
+          ],
+          "entitlement_cents": [
+            7670,
+            10620
+          ],
+          "next_cents": [
+            0,
+            2360
+          ]
+        },
+        "note": ""
+      }
+    ]
+  },
+  "W2": {
+    "waybill": "W2",
+    "buyer": "买方川",
+    "contract_now": {
+      "contract": "AG2",
+      "version": "开园",
+      "in_force_at_first_shipment": "2026-11-12T08:00:00+08:00",
+      "deductible_kg": 5.0,
+      "cents_per_kg": 645,
+      "cap_cents": 12800
+    },
+    "payments_then": [
+      {
+        "entry": "L21",
+        "paid_cents": 6000,
+        "authorized_at": "2026-11-13T12:00:00+08:00",
+        "documents_used": [
+          {
+            "ticket": "SA0",
+            "rev": 1,
+            "parcel": "A0",
+            "gross_kg": 713.0,
+            "tare_kg": 13.0,
+            "tolerance_kg": 2.0,
+            "net_kg": 700.0,
+            "low_kg": 698.0,
+            "high_kg": 702.0,
+            "reported_at": "2026-11-12T05:00:00+08:00",
+            "replaces": null
+          },
+          {
+            "ticket": "SA",
+            "rev": 1,
+            "parcel": "A",
+            "gross_kg": 508.0,
+            "tare_kg": 8.0,
+            "tolerance_kg": 2.0,
+            "net_kg": 500.0,
+            "low_kg": 498.0,
+            "high_kg": 502.0,
+            "reported_at": "2026-11-12T05:10:00+08:00",
+            "replaces": null
+          },
+          {
+            "ticket": "SB",
+            "rev": 1,
+            "parcel": "B",
+            "gross_kg": 327.0,
+            "tare_kg": 7.0,
+            "tolerance_kg": 2.0,
+            "net_kg": 320.0,
+            "low_kg": 318.0,
+            "high_kg": 322.0,
+            "reported_at": "2026-11-12T05:12:00+08:00",
+            "replaces": null
+          },
+          {
+            "ticket": "SM",
+            "rev": 1,
+            "parcel": "AB",
+            "gross_kg": 812.0,
+            "tare_kg": 10.0,
+            "tolerance_kg": 3.0,
+            "net_kg": 802.0,
+            "low_kg": 799.0,
+            "high_kg": 805.0,
+            "reported_at": "2026-11-12T05:33:00+08:00",
+            "replaces": null
+          },
+          {
+            "ticket": "S2",
+            "rev": 1,
+            "parcel": "P2",
+            "gross_kg": 323.0,
+            "tare_kg": 8.0,
+            "tolerance_kg": 2.0,
+            "net_kg": 315.0,
+            "low_kg": 313.0,
+            "high_kg": 317.0,
+            "reported_at": "2026-11-12T06:00:00+08:00",
+            "replaces": null
+          },
+          {
+            "ticket": "S4",
+            "rev": 1,
+            "parcel": "P4",
+            "gross_kg": 240.0,
+            "tare_kg": 4.0,
+            "tolerance_kg": 2.0,
+            "net_kg": 236.0,
+            "low_kg": 234.0,
+            "high_kg": 238.0,
+            "reported_at": "2026-11-12T07:18:00+08:00",
+            "replaces": null
+          },
+          {
+            "ticket": "SD2",
+            "rev": 1,
+            "parcel": "D2",
+            "gross_kg": 221.0,
+            "tare_kg": 4.0,
+            "tolerance_kg": 2.0,
+            "net_kg": 217.0,
+            "low_kg": 215.0,
+            "high_kg": 219.0,
+            "reported_at": "2026-11-12T10:35:00+08:00",
+            "replaces": null
+          }
+        ],
+        "contract": {
+          "contract": "AG2",
+          "version": "开园",
+          "deductible_kg": 5.0,
+          "cents_per_kg": 645,
+          "cap_cents": 12800
+        },
+        "claims_visible_then": [
+          {
+            "notice": "N2",
+            "noticed_at": "2026-11-13T09:00:00+08:00",
+            "amount_kg": 24.0
+          }
+        ],
+        "confirmed_kg_then": 15.0,
+        "entitlement_then_cents": 6450,
+        "difference_to_now_cents": 0
+      }
+    ],
+    "documents_now": [
+      {
+        "ticket": "SA0",
+        "rev": 1,
+        "parcel": "A0",
+        "gross_kg": 713.0,
+        "tare_kg": 13.0,
+        "tolerance_kg": 2.0,
+        "net_kg": 700.0,
+        "low_kg": 698.0,
+        "high_kg": 702.0,
+        "reported_at": "2026-11-12T05:00:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "SA",
+        "rev": 1,
+        "parcel": "A",
+        "gross_kg": 508.0,
+        "tare_kg": 8.0,
+        "tolerance_kg": 2.0,
+        "net_kg": 500.0,
+        "low_kg": 498.0,
+        "high_kg": 502.0,
+        "reported_at": "2026-11-12T05:10:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "SB",
+        "rev": 1,
+        "parcel": "B",
+        "gross_kg": 327.0,
+        "tare_kg": 7.0,
+        "tolerance_kg": 2.0,
+        "net_kg": 320.0,
+        "low_kg": 318.0,
+        "high_kg": 322.0,
+        "reported_at": "2026-11-12T05:12:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "SM",
+        "rev": 1,
+        "parcel": "AB",
+        "gross_kg": 812.0,
+        "tare_kg": 10.0,
+        "tolerance_kg": 3.0,
+        "net_kg": 802.0,
+        "low_kg": 799.0,
+        "high_kg": 805.0,
+        "reported_at": "2026-11-12T05:33:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "S4",
+        "rev": 1,
+        "parcel": "P4",
+        "gross_kg": 240.0,
+        "tare_kg": 4.0,
+        "tolerance_kg": 2.0,
+        "net_kg": 236.0,
+        "low_kg": 234.0,
+        "high_kg": 238.0,
+        "reported_at": "2026-11-12T07:18:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "SD2",
+        "rev": 1,
+        "parcel": "D2",
+        "gross_kg": 221.0,
+        "tare_kg": 4.0,
+        "tolerance_kg": 2.0,
+        "net_kg": 217.0,
+        "low_kg": 215.0,
+        "high_kg": 219.0,
+        "reported_at": "2026-11-12T10:35:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "S2",
+        "rev": 3,
+        "parcel": "P2",
+        "gross_kg": 323.0,
+        "tare_kg": 8.0,
+        "tolerance_kg": 1.0,
+        "net_kg": 315.0,
+        "low_kg": 314.0,
+        "high_kg": 316.0,
+        "reported_at": "2026-11-16T08:00:00+08:00",
+        "replaces": 2
+      }
+    ],
+    "now": {
+      "shortage_kg": {
+        "low": 15.0,
+        "high": 22.0
+      },
+      "confirmed_farm_kg": 0,
+      "unresolved_kg": 22.0,
+      "farms": {
+        "园丙": {
+          "low_kg": 0.0,
+          "high_kg": 0.0
+        },
+        "园乙": {
+          "low_kg": 0.0,
+          "high_kg": 22.0
+        },
+        "园甲": {
+          "low_kg": 0.0,
+          "high_kg": 22.0
+        }
+      },
+      "claims": [
+        {
+          "notice": "N2",
+          "noticed_at": "2026-11-13T09:00:00+08:00",
+          "amount_kg": 24.0
+        }
+      ],
+      "entitlement_cents": 6450,
+      "paid_cents": 6000,
+      "balance_cents": 450,
+      "pending_cents": 450,
+      "next_cents": 450,
+      "status": "可结算",
+      "quarantined": false
+    },
+    "orchard": [],
+    "corrections": [
+      {
+        "ticket": "S2",
+        "from_rev": 1,
+        "to_rev": 2,
+        "reported_at": "2026-11-15T10:00:00+08:00",
+        "feasible": [
+          true,
+          false
+        ],
+        "change": {
+          "waybill": "W2",
+          "shortage_low_kg": [
+            15.0,
+            null
+          ],
+          "shortage_high_kg": [
+            23.0,
+            null
+          ],
+          "confirmed_farm_kg": [
+            0,
+            null
+          ],
+          "entitlement_cents": [
+            6450,
+            null
+          ],
+          "next_cents": [
+            450,
+            null
+          ]
+        },
+        "note": "新版与其余记录不相容，已隔离；不按新增短少处理（其余记录只容许 P2 313.00–323.00 kg，新版为 343.00–345.00 kg）"
+      },
+      {
+        "ticket": "S2",
+        "from_rev": 2,
+        "to_rev": 3,
+        "reported_at": "2026-11-16T08:00:00+08:00",
+        "feasible": [
+          false,
+          true
+        ],
+        "change": null,
+        "note": "新版本使记录重新自洽"
+      }
+    ]
+  },
+  "W3": {
+    "waybill": "W3",
+    "buyer": "买方川",
+    "contract_now": {
+      "contract": "AG2",
+      "version": "开园",
+      "in_force_at_first_shipment": "2026-11-12T08:00:00+08:00",
+      "deductible_kg": 5.0,
+      "cents_per_kg": 645,
+      "cap_cents": 12800
+    },
+    "payments_then": [
+      {
+        "entry": "L31",
+        "paid_cents": 2580,
+        "authorized_at": "2026-11-14T11:00:00+08:00",
+        "documents_used": [
+          {
+            "ticket": "SC",
+            "rev": 1,
+            "parcel": "C",
+            "gross_kg": 214.0,
+            "tare_kg": 4.0,
+            "tolerance_kg": 1.0,
+            "net_kg": 210.0,
+            "low_kg": 209.0,
+            "high_kg": 211.0,
+            "reported_at": "2026-11-12T06:15:00+08:00",
+            "replaces": null
+          },
+          {
+            "ticket": "S3",
+            "rev": 1,
+            "parcel": "P3",
+            "gross_kg": 212.0,
+            "tare_kg": 4.0,
+            "tolerance_kg": 1.0,
+            "net_kg": 208.0,
+            "low_kg": 207.0,
+            "high_kg": 209.0,
+            "reported_at": "2026-11-12T06:22:00+08:00",
+            "replaces": null
+          },
+          {
+            "ticket": "SD3",
+            "rev": 1,
+            "parcel": "D3",
+            "gross_kg": 201.0,
+            "tare_kg": 4.0,
+            "tolerance_kg": 1.0,
+            "net_kg": 197.0,
+            "low_kg": 196.0,
+            "high_kg": 198.0,
+            "reported_at": "2026-11-12T09:30:00+08:00",
+            "replaces": null
+          }
+        ],
+        "contract": {
+          "contract": "AG2",
+          "version": "开园",
+          "deductible_kg": 5.0,
+          "cents_per_kg": 645,
+          "cap_cents": 12800
+        },
+        "claims_visible_then": [
+          {
+            "notice": "N3",
+            "noticed_at": "2026-11-14T09:00:00+08:00",
+            "amount_kg": 12.0
+          }
+        ],
+        "confirmed_kg_then": 9.0,
+        "entitlement_then_cents": 2580,
+        "difference_to_now_cents": 0
+      }
+    ],
+    "documents_now": [
+      {
+        "ticket": "SC",
+        "rev": 1,
+        "parcel": "C",
+        "gross_kg": 214.0,
+        "tare_kg": 4.0,
+        "tolerance_kg": 1.0,
+        "net_kg": 210.0,
+        "low_kg": 209.0,
+        "high_kg": 211.0,
+        "reported_at": "2026-11-12T06:15:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "S3",
+        "rev": 1,
+        "parcel": "P3",
+        "gross_kg": 212.0,
+        "tare_kg": 4.0,
+        "tolerance_kg": 1.0,
+        "net_kg": 208.0,
+        "low_kg": 207.0,
+        "high_kg": 209.0,
+        "reported_at": "2026-11-12T06:22:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "SD3",
+        "rev": 1,
+        "parcel": "D3",
+        "gross_kg": 201.0,
+        "tare_kg": 4.0,
+        "tolerance_kg": 1.0,
+        "net_kg": 197.0,
+        "low_kg": 196.0,
+        "high_kg": 198.0,
+        "reported_at": "2026-11-12T09:30:00+08:00",
+        "replaces": null
+      }
+    ],
+    "now": {
+      "shortage_kg": {
+        "low": 9.0,
+        "high": 13.0
+      },
+      "confirmed_farm_kg": 9.0,
+      "unresolved_kg": 4.0,
+      "farms": {
+        "园丙": {
+          "low_kg": 9.0,
+          "high_kg": 13.0
+        },
+        "园乙": {
+          "low_kg": 0.0,
+          "high_kg": 0.0
+        },
+        "园甲": {
+          "low_kg": 0.0,
+          "high_kg": 0.0
+        }
+      },
+      "claims": [
+        {
+          "notice": "N3",
+          "noticed_at": "2026-11-14T09:00:00+08:00",
+          "amount_kg": 12.0
+        }
+      ],
+      "entitlement_cents": 2580,
+      "paid_cents": 2580,
+      "balance_cents": 0,
+      "pending_cents": 0,
+      "next_cents": 0,
+      "status": "可结算",
+      "quarantined": false
+    },
+    "orchard": [
+      {
+        "waybill": "W3",
+        "farm": "园丙",
+        "confirmed_kg": 9.0,
+        "unresolved_kg": 4.0,
+        "amount_cents": 2580,
+        "deducted_cents": 2580,
+        "newly_applied_cents": 0,
+        "secured_cents": 2580,
+        "open_cents": 0,
+        "week": "",
+        "statement": ""
+      }
+    ],
+    "corrections": []
+  },
+  "W4": {
+    "waybill": "W4",
+    "buyer": "买方林",
+    "contract_now": {
+      "contract": "AG2",
+      "version": "开园",
+      "in_force_at_first_shipment": "2026-11-12T08:00:00+08:00",
+      "deductible_kg": 5.0,
+      "cents_per_kg": 645,
+      "cap_cents": 12800
+    },
+    "payments_then": [],
+    "documents_now": [
+      {
+        "ticket": "SA0",
+        "rev": 1,
+        "parcel": "A0",
+        "gross_kg": 713.0,
+        "tare_kg": 13.0,
+        "tolerance_kg": 2.0,
+        "net_kg": 700.0,
+        "low_kg": 698.0,
+        "high_kg": 702.0,
+        "reported_at": "2026-11-12T05:00:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "S5",
+        "rev": 1,
+        "parcel": "P5",
+        "gross_kg": 204.0,
+        "tare_kg": 8.0,
+        "tolerance_kg": 1.0,
+        "net_kg": 196.0,
+        "low_kg": 195.0,
+        "high_kg": 197.0,
+        "reported_at": "2026-11-12T05:10:00+08:00",
+        "replaces": null
+      },
+      {
+        "ticket": "SD5",
+        "rev": 1,
+        "parcel": "D5",
+        "gross_kg": 179.0,
+        "tare_kg": 8.0,
+        "tolerance_kg": 1.0,
+        "net_kg": 171.0,
+        "low_kg": 170.0,
+        "high_kg": 172.0,
+        "reported_at": "2026-11-12T10:20:00+08:00",
+        "replaces": null
+      }
+    ],
+    "now": {
+      "shortage_kg": {
+        "low": 23.0,
+        "high": 27.0
+      },
+      "confirmed_farm_kg": 23.0,
+      "unresolved_kg": 4.0,
+      "farms": {
+        "园丙": {
+          "low_kg": 0.0,
+          "high_kg": 0.0
+        },
+        "园乙": {
+          "low_kg": 0.0,
+          "high_kg": 0.0
+        },
+        "园甲": {
+          "low_kg": 23.0,
+          "high_kg": 27.0
+        }
+      },
+      "claims": [
+        {
+          "notice": "N4",
+          "noticed_at": "2026-11-13T10:00:00+08:00",
+          "amount_kg": 24.0
+        }
+      ],
+      "entitlement_cents": 11610,
+      "paid_cents": 0,
+      "balance_cents": 11610,
+      "pending_cents": 11610,
+      "next_cents": 11610,
+      "status": "可结算",
+      "quarantined": false
+    },
+    "orchard": [
+      {
+        "waybill": "W4",
+        "farm": "园甲",
+        "confirmed_kg": 23.0,
+        "unresolved_kg": 4.0,
+        "amount_cents": 11610,
+        "deducted_cents": 0,
+        "newly_applied_cents": 4700,
+        "secured_cents": 4700,
+        "open_cents": 6910,
+        "week": "2026-W47",
+        "statement": "F-A47"
+      }
+    ],
+    "corrections": []
+  }
+}

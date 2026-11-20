@@ -1,0 +1,1317 @@
+{
+  "as_of": "latest",
+  "scales_used": [
+    {
+      "parcel": "A0",
+      "ticket": "SA0",
+      "rev": 1,
+      "net_kg": 700.0,
+      "low_kg": 698.0,
+      "high_kg": 702.0,
+      "reported_at": "2026-11-12T05:00:00+08:00"
+    },
+    {
+      "parcel": "P5",
+      "ticket": "S5",
+      "rev": 1,
+      "net_kg": 196.0,
+      "low_kg": 195.0,
+      "high_kg": 197.0,
+      "reported_at": "2026-11-12T05:10:00+08:00"
+    },
+    {
+      "parcel": "A",
+      "ticket": "SA",
+      "rev": 1,
+      "net_kg": 500.0,
+      "low_kg": 498.0,
+      "high_kg": 502.0,
+      "reported_at": "2026-11-12T05:10:00+08:00"
+    },
+    {
+      "parcel": "B",
+      "ticket": "SB",
+      "rev": 1,
+      "net_kg": 320.0,
+      "low_kg": 318.0,
+      "high_kg": 322.0,
+      "reported_at": "2026-11-12T05:12:00+08:00"
+    },
+    {
+      "parcel": "AB",
+      "ticket": "SM",
+      "rev": 1,
+      "net_kg": 802.0,
+      "low_kg": 799.0,
+      "high_kg": 805.0,
+      "reported_at": "2026-11-12T05:33:00+08:00"
+    },
+    {
+      "parcel": "P1",
+      "ticket": "S1",
+      "rev": 1,
+      "net_kg": 480.0,
+      "low_kg": 478.0,
+      "high_kg": 482.0,
+      "reported_at": "2026-11-12T06:00:00+08:00"
+    },
+    {
+      "parcel": "C",
+      "ticket": "SC",
+      "rev": 1,
+      "net_kg": 210.0,
+      "low_kg": 209.0,
+      "high_kg": 211.0,
+      "reported_at": "2026-11-12T06:15:00+08:00"
+    },
+    {
+      "parcel": "P3",
+      "ticket": "S3",
+      "rev": 1,
+      "net_kg": 208.0,
+      "low_kg": 207.0,
+      "high_kg": 209.0,
+      "reported_at": "2026-11-12T06:22:00+08:00"
+    },
+    {
+      "parcel": "R",
+      "ticket": "SR",
+      "rev": 1,
+      "net_kg": 80.0,
+      "low_kg": 79.0,
+      "high_kg": 81.0,
+      "reported_at": "2026-11-12T07:16:00+08:00"
+    },
+    {
+      "parcel": "P4",
+      "ticket": "S4",
+      "rev": 1,
+      "net_kg": 236.0,
+      "low_kg": 234.0,
+      "high_kg": 238.0,
+      "reported_at": "2026-11-12T07:18:00+08:00"
+    },
+    {
+      "parcel": "D3",
+      "ticket": "SD3",
+      "rev": 1,
+      "net_kg": 197.0,
+      "low_kg": 196.0,
+      "high_kg": 198.0,
+      "reported_at": "2026-11-12T09:30:00+08:00"
+    },
+    {
+      "parcel": "D5",
+      "ticket": "SD5",
+      "rev": 1,
+      "net_kg": 171.0,
+      "low_kg": 170.0,
+      "high_kg": 172.0,
+      "reported_at": "2026-11-12T10:20:00+08:00"
+    },
+    {
+      "parcel": "D2",
+      "ticket": "SD2",
+      "rev": 1,
+      "net_kg": 217.0,
+      "low_kg": 215.0,
+      "high_kg": 219.0,
+      "reported_at": "2026-11-12T10:35:00+08:00"
+    },
+    {
+      "parcel": "D1",
+      "ticket": "SD1",
+      "rev": 2,
+      "net_kg": 455.0,
+      "low_kg": 454.0,
+      "high_kg": 456.0,
+      "reported_at": "2026-11-14T14:00:00+08:00"
+    },
+    {
+      "parcel": "P2",
+      "ticket": "S2",
+      "rev": 3,
+      "net_kg": 315.0,
+      "low_kg": 314.0,
+      "high_kg": 316.0,
+      "reported_at": "2026-11-16T08:00:00+08:00"
+    }
+  ],
+  "scale_warnings": [],
+  "waybills": {
+    "W1": {
+      "buyer": "买方青",
+      "shortage_kg": {
+        "low": 22.0,
+        "high": 28.0
+      },
+      "farms": {
+        "园丙": {
+          "low_kg": 0.0,
+          "high_kg": 0.0
+        },
+        "园乙": {
+          "low_kg": 0.0,
+          "high_kg": 28.0
+        },
+        "园甲": {
+          "low_kg": 0.0,
+          "high_kg": 28.0
+        }
+      },
+      "confirmed_farm_kg": 0,
+      "unresolved_kg": 28.0,
+      "conflict": false
+    },
+    "W2": {
+      "buyer": "买方川",
+      "shortage_kg": {
+        "low": 15.0,
+        "high": 22.0
+      },
+      "farms": {
+        "园丙": {
+          "low_kg": 0.0,
+          "high_kg": 0.0
+        },
+        "园乙": {
+          "low_kg": 0.0,
+          "high_kg": 22.0
+        },
+        "园甲": {
+          "low_kg": 0.0,
+          "high_kg": 22.0
+        }
+      },
+      "confirmed_farm_kg": 0,
+      "unresolved_kg": 22.0,
+      "conflict": false
+    },
+    "W3": {
+      "buyer": "买方川",
+      "shortage_kg": {
+        "low": 9.0,
+        "high": 13.0
+      },
+      "farms": {
+        "园丙": {
+          "low_kg": 9.0,
+          "high_kg": 13.0
+        },
+        "园乙": {
+          "low_kg": 0.0,
+          "high_kg": 0.0
+        },
+        "园甲": {
+          "low_kg": 0.0,
+          "high_kg": 0.0
+        }
+      },
+      "confirmed_farm_kg": 9.0,
+      "unresolved_kg": 4.0,
+      "conflict": false
+    },
+    "W4": {
+      "buyer": "买方林",
+      "shortage_kg": {
+        "low": 23.0,
+        "high": 27.0
+      },
+      "farms": {
+        "园丙": {
+          "low_kg": 0.0,
+          "high_kg": 0.0
+        },
+        "园乙": {
+          "low_kg": 0.0,
+          "high_kg": 0.0
+        },
+        "园甲": {
+          "low_kg": 23.0,
+          "high_kg": 27.0
+        }
+      },
+      "confirmed_farm_kg": 23.0,
+      "unresolved_kg": 4.0,
+      "conflict": false
+    }
+  },
+  "joint_maxima": {
+    "buyers": {
+      "parties": [
+        "W1",
+        "W2",
+        "W3",
+        "W4"
+      ],
+      "constraints": [
+        {
+          "party": "W1",
+          "at_least_kg": 28.0
+        },
+        {
+          "party": "W2",
+          "at_least_kg": 22.0
+        },
+        {
+          "party": "W3",
+          "at_least_kg": 13.0
+        },
+        {
+          "party": "W4",
+          "at_least_kg": 27.0
+        }
+      ],
+      "feasible_together": true,
+      "minimal_conflict": []
+    },
+    "园丙": {
+      "parties": [
+        "W3"
+      ],
+      "constraints": [
+        {
+          "party": "W3",
+          "at_least_kg": 13.0
+        }
+      ],
+      "feasible_together": true,
+      "minimal_conflict": []
+    },
+    "园乙": {
+      "parties": [
+        "W1",
+        "W2"
+      ],
+      "constraints": [
+        {
+          "party": "W1",
+          "at_least_kg": 28.0
+        },
+        {
+          "party": "W2",
+          "at_least_kg": 22.0
+        }
+      ],
+      "feasible_together": true,
+      "minimal_conflict": []
+    },
+    "园甲": {
+      "parties": [
+        "W1",
+        "W2",
+        "W4"
+      ],
+      "constraints": [
+        {
+          "party": "W1",
+          "at_least_kg": 28.0
+        },
+        {
+          "party": "W2",
+          "at_least_kg": 22.0
+        },
+        {
+          "party": "W4",
+          "at_least_kg": 27.0
+        }
+      ],
+      "feasible_together": true,
+      "minimal_conflict": []
+    }
+  },
+  "aggregate": {
+    "buyers": {
+      "买方青": {
+        "waybills": [
+          "W1"
+        ],
+        "shortage_kg": {
+          "low": 22.0,
+          "high": 28.0
+        },
+        "confirmed_farm_kg": 0,
+        "unresolved_kg": 28.0,
+        "sum_of_individual_highs_kg": 28.0
+      },
+      "买方川": {
+        "waybills": [
+          "W2",
+          "W3"
+        ],
+        "shortage_kg": {
+          "low": 24.0,
+          "high": 35.0
+        },
+        "confirmed_farm_kg": 9.0,
+        "unresolved_kg": 26.0,
+        "sum_of_individual_highs_kg": 35.0
+      },
+      "买方林": {
+        "waybills": [
+          "W4"
+        ],
+        "shortage_kg": {
+          "low": 23.0,
+          "high": 27.0
+        },
+        "confirmed_farm_kg": 23.0,
+        "unresolved_kg": 4.0,
+        "sum_of_individual_highs_kg": 27.0
+      }
+    },
+    "farms": {
+      "园丙": {
+        "confirmed_kg": 9.0,
+        "possible_kg": 13.0,
+        "waybills": [
+          "W3"
+        ]
+      },
+      "园乙": {
+        "confirmed_kg": 0.0,
+        "possible_kg": 50.0,
+        "waybills": [
+          "W1",
+          "W2"
+        ]
+      },
+      "园甲": {
+        "confirmed_kg": 23.0,
+        "possible_kg": 77.0,
+        "waybills": [
+          "W1",
+          "W2",
+          "W4"
+        ]
+      }
+    }
+  },
+  "balance_detail": [
+    {
+      "operation": "M1",
+      "kind": "mix",
+      "inputs": [
+        "A",
+        "B"
+      ],
+      "outputs": [
+        "AB"
+      ],
+      "loss_kg": {
+        "declared_min": 16.0,
+        "declared_max": 22.0,
+        "admitted_low": 16.0,
+        "admitted_high": 22.0
+      },
+      "unexplained_kg": {
+        "low": 0.0,
+        "high": 9.0
+      }
+    },
+    {
+      "operation": "M0",
+      "kind": "split",
+      "inputs": [
+        "A0"
+      ],
+      "outputs": [
+        "A",
+        "P5"
+      ],
+      "loss_kg": {
+        "declared_min": 2.0,
+        "declared_max": 6.0,
+        "admitted_low": 2.0,
+        "admitted_high": 6.0
+      },
+      "unexplained_kg": {
+        "low": 0.0,
+        "high": 7.0
+      }
+    },
+    {
+      "operation": "M2",
+      "kind": "split",
+      "inputs": [
+        "AB"
+      ],
+      "outputs": [
+        "P1",
+        "P2"
+      ],
+      "loss_kg": {
+        "declared_min": 4.0,
+        "declared_max": 9.0,
+        "admitted_low": 4.0,
+        "admitted_high": 9.0
+      },
+      "unexplained_kg": {
+        "low": 0.0,
+        "high": 9.0
+      }
+    },
+    {
+      "operation": "M3",
+      "kind": "split",
+      "inputs": [
+        "P2"
+      ],
+      "outputs": [
+        "R",
+        "P4"
+      ],
+      "loss_kg": {
+        "declared_min": 0.0,
+        "declared_max": 0.0,
+        "admitted_low": 0.0,
+        "admitted_high": 0.0
+      },
+      "unexplained_kg": {
+        "low": 0.0,
+        "high": 3.0
+      }
+    },
+    {
+      "operation": "M4",
+      "kind": "split",
+      "inputs": [
+        "C"
+      ],
+      "outputs": [
+        "P3"
+      ],
+      "loss_kg": {
+        "declared_min": 1.0,
+        "declared_max": 4.0,
+        "admitted_low": 1.0,
+        "admitted_high": 4.0
+      },
+      "unexplained_kg": {
+        "low": 0.0,
+        "high": 3.0
+      }
+    },
+    {
+      "operation": "T1",
+      "kind": "transport",
+      "inputs": [
+        "P1"
+      ],
+      "outputs": [
+        "D1"
+      ],
+      "loss_kg": {
+        "declared_min": 0.0,
+        "declared_max": 0.0,
+        "admitted_low": 0.0,
+        "admitted_high": 0.0
+      },
+      "unexplained_kg": {
+        "low": 22.0,
+        "high": 28.0
+      }
+    },
+    {
+      "operation": "T2",
+      "kind": "transport",
+      "inputs": [
+        "P4"
+      ],
+      "outputs": [
+        "D2"
+      ],
+      "loss_kg": {
+        "declared_min": 0.0,
+        "declared_max": 0.0,
+        "admitted_low": 0.0,
+        "admitted_high": 0.0
+      },
+      "unexplained_kg": {
+        "low": 15.0,
+        "high": 22.0
+      }
+    },
+    {
+      "operation": "T3",
+      "kind": "transport",
+      "inputs": [
+        "P3"
+      ],
+      "outputs": [
+        "D3"
+      ],
+      "loss_kg": {
+        "declared_min": 0.0,
+        "declared_max": 0.0,
+        "admitted_low": 0.0,
+        "admitted_high": 0.0
+      },
+      "unexplained_kg": {
+        "low": 9.0,
+        "high": 13.0
+      }
+    },
+    {
+      "operation": "T4",
+      "kind": "transport",
+      "inputs": [
+        "P5"
+      ],
+      "outputs": [
+        "D5"
+      ],
+      "loss_kg": {
+        "declared_min": 0.0,
+        "declared_max": 0.0,
+        "admitted_low": 0.0,
+        "admitted_high": 0.0
+      },
+      "unexplained_kg": {
+        "low": 23.0,
+        "high": 27.0
+      }
+    }
+  ],
+  "buyers": [
+    {
+      "waybill": "W1",
+      "buyer": "买方青",
+      "contract": "AG1",
+      "version": "2026秋",
+      "entitlement_cents": 10620,
+      "paid_cents": 8260,
+      "pending_cents": 2360,
+      "balance_cents": 2360,
+      "executable_next_cents": 2360,
+      "confirmed_kg": 0,
+      "unresolved_kg": 28.0,
+      "status": "可结算",
+      "held": false,
+      "frozen_paid_cents": 0,
+      "adjustments": [
+        {
+          "entry": "TOPUP-W1",
+          "waybill": "W1",
+          "party": "买方青",
+          "kind": "补付",
+          "cents": 2360,
+          "authorized_at": "2026-11-17T09:00:00+08:00",
+          "origin_refs": [
+            "AG1",
+            "claims:N11,N12"
+          ],
+          "status": "待办",
+          "source_entry": null
+        }
+      ]
+    },
+    {
+      "waybill": "W2",
+      "buyer": "买方川",
+      "contract": "AG2",
+      "version": "开园",
+      "entitlement_cents": 6450,
+      "paid_cents": 6000,
+      "pending_cents": 450,
+      "balance_cents": 450,
+      "executable_next_cents": 450,
+      "confirmed_kg": 0,
+      "unresolved_kg": 22.0,
+      "status": "可结算",
+      "held": false,
+      "frozen_paid_cents": 0,
+      "adjustments": [
+        {
+          "entry": "TOPUP-W2",
+          "waybill": "W2",
+          "party": "买方川",
+          "kind": "补付",
+          "cents": 450,
+          "authorized_at": "2026-11-17T09:00:00+08:00",
+          "origin_refs": [
+            "AG2",
+            "claims:N2"
+          ],
+          "status": "待办",
+          "source_entry": null
+        }
+      ]
+    },
+    {
+      "waybill": "W3",
+      "buyer": "买方川",
+      "contract": "AG2",
+      "version": "开园",
+      "entitlement_cents": 2580,
+      "paid_cents": 2580,
+      "pending_cents": 0,
+      "balance_cents": 0,
+      "executable_next_cents": 0,
+      "confirmed_kg": 9.0,
+      "unresolved_kg": 4.0,
+      "status": "可结算",
+      "held": false,
+      "frozen_paid_cents": 0,
+      "adjustments": []
+    },
+    {
+      "waybill": "W4",
+      "buyer": "买方林",
+      "contract": "AG2",
+      "version": "开园",
+      "entitlement_cents": 11610,
+      "paid_cents": 0,
+      "pending_cents": 11610,
+      "balance_cents": 11610,
+      "executable_next_cents": 11610,
+      "confirmed_kg": 23.0,
+      "unresolved_kg": 4.0,
+      "status": "可结算",
+      "held": false,
+      "frozen_paid_cents": 0,
+      "adjustments": [
+        {
+          "entry": "TOPUP-W4",
+          "waybill": "W4",
+          "party": "买方林",
+          "kind": "补付",
+          "cents": 11610,
+          "authorized_at": "2026-11-17T09:00:00+08:00",
+          "origin_refs": [
+            "AG2",
+            "claims:N4"
+          ],
+          "status": "待办",
+          "source_entry": null
+        }
+      ]
+    }
+  ],
+  "orchards": [
+    {
+      "waybill": "W3",
+      "farm": "园丙",
+      "confirmed_kg": 9.0,
+      "unresolved_kg": 4.0,
+      "amount_cents": 2580,
+      "deducted_cents": 2580,
+      "newly_applied_cents": 0,
+      "secured_cents": 2580,
+      "open_cents": 0,
+      "week": "",
+      "statement": ""
+    },
+    {
+      "waybill": "W4",
+      "farm": "园甲",
+      "confirmed_kg": 23.0,
+      "unresolved_kg": 4.0,
+      "amount_cents": 11610,
+      "deducted_cents": 0,
+      "newly_applied_cents": 4700,
+      "secured_cents": 4700,
+      "open_cents": 6910,
+      "week": "2026-W47",
+      "statement": "F-A47"
+    }
+  ],
+  "conflicts": [
+    {
+      "label": "S2:2",
+      "parcel": "P2",
+      "basis": "S2:2 取代 1；与其余记录放在一起无解。其余记录对该节点只容许 313.00–323.00 kg，本版为 343.00–345.00 kg。该版被隔离，不计为新增短少",
+      "affected_parcels": [
+        "P2"
+      ],
+      "affected_waybills": [
+        "W2"
+      ],
+      "unaffected_waybills": [
+        "W1",
+        "W3",
+        "W4"
+      ],
+      "readings": [
+        {
+          "ticket": "S2",
+          "rev": 2,
+          "parcel": "P2",
+          "gross_kg": 352.0,
+          "tare_kg": 8.0,
+          "tolerance_kg": 1.0,
+          "net_kg": 344.0,
+          "low_kg": 343.0,
+          "high_kg": 345.0,
+          "reported_at": "2026-11-15T10:00:00+08:00",
+          "replaces": 1
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "ticket": "SD1",
+      "parcel": "D1",
+      "from_rev": 1,
+      "to_rev": 2,
+      "reported_at": "2026-11-14T14:00:00+08:00",
+      "from_feasible": true,
+      "to_feasible": true,
+      "affected_waybills": [],
+      "changes": [
+        {
+          "waybill": "W1",
+          "shortage_low_kg": [
+            17.0,
+            22.0
+          ],
+          "shortage_high_kg": [
+            23.0,
+            28.0
+          ],
+          "confirmed_farm_kg": [
+            0,
+            0
+          ],
+          "entitlement_cents": [
+            7670,
+            10620
+          ],
+          "next_cents": [
+            0,
+            2360
+          ]
+        }
+      ],
+      "note": ""
+    },
+    {
+      "ticket": "S2",
+      "parcel": "P2",
+      "from_rev": 1,
+      "to_rev": 2,
+      "reported_at": "2026-11-15T10:00:00+08:00",
+      "from_feasible": true,
+      "to_feasible": false,
+      "affected_waybills": [
+        "W2"
+      ],
+      "changes": [
+        {
+          "waybill": "W2",
+          "shortage_low_kg": [
+            15.0,
+            null
+          ],
+          "shortage_high_kg": [
+            23.0,
+            null
+          ],
+          "confirmed_farm_kg": [
+            0,
+            null
+          ],
+          "entitlement_cents": [
+            6450,
+            null
+          ],
+          "next_cents": [
+            450,
+            null
+          ]
+        }
+      ],
+      "note": "新版与其余记录不相容，已隔离；不按新增短少处理（其余记录只容许 P2 313.00–323.00 kg，新版为 343.00–345.00 kg）"
+    },
+    {
+      "ticket": "S2",
+      "parcel": "P2",
+      "from_rev": 2,
+      "to_rev": 3,
+      "reported_at": "2026-11-16T08:00:00+08:00",
+      "from_feasible": false,
+      "to_feasible": true,
+      "affected_waybills": [],
+      "changes": [],
+      "note": "新版本使记录重新自洽"
+    }
+  ],
+  "credit": {
+    "statements": [
+      {
+        "statement": "F-C46",
+        "farm": "园丙",
+        "week": "2026-W46",
+        "gross_available_cents": 11100,
+        "posted_at": "2026-11-12T15:00:00+08:00",
+        "closed": true,
+        "existing_deductions_cents": 2580,
+        "returns_posted_cents": 0,
+        "returns_pending_cents": 0,
+        "newly_applied_cents": 0,
+        "available_for_new_cents": 0,
+        "allocations": []
+      },
+      {
+        "statement": "F-B46",
+        "farm": "园乙",
+        "week": "2026-W46",
+        "gross_available_cents": 1600,
+        "posted_at": "2026-11-12T15:00:00+08:00",
+        "closed": true,
+        "existing_deductions_cents": 0,
+        "returns_posted_cents": 0,
+        "returns_pending_cents": 0,
+        "newly_applied_cents": 0,
+        "available_for_new_cents": 0,
+        "allocations": []
+      },
+      {
+        "statement": "F-A46",
+        "farm": "园甲",
+        "week": "2026-W46",
+        "gross_available_cents": 3500,
+        "posted_at": "2026-11-12T15:00:00+08:00",
+        "closed": true,
+        "existing_deductions_cents": 2600,
+        "returns_posted_cents": 0,
+        "returns_pending_cents": 0,
+        "newly_applied_cents": 0,
+        "available_for_new_cents": 0,
+        "allocations": []
+      },
+      {
+        "statement": "F-B47",
+        "farm": "园乙",
+        "week": "2026-W47",
+        "gross_available_cents": 1100,
+        "posted_at": "2026-11-16T06:00:00+08:00",
+        "closed": false,
+        "existing_deductions_cents": 0,
+        "returns_posted_cents": 0,
+        "returns_pending_cents": 0,
+        "newly_applied_cents": 0,
+        "available_for_new_cents": 1100,
+        "allocations": []
+      },
+      {
+        "statement": "F-A47",
+        "farm": "园甲",
+        "week": "2026-W47",
+        "gross_available_cents": 2700,
+        "posted_at": "2026-11-16T06:00:00+08:00",
+        "closed": false,
+        "existing_deductions_cents": 0,
+        "returns_posted_cents": 2000,
+        "returns_pending_cents": 0,
+        "newly_applied_cents": 4700,
+        "available_for_new_cents": 0,
+        "allocations": [
+          {
+            "claim": "W4:园甲",
+            "waybill": "W4",
+            "farm": "园甲",
+            "cents": 4700
+          }
+        ]
+      }
+    ],
+    "orchard_claims": [
+      {
+        "waybill": "W3",
+        "farm": "园丙",
+        "amount_cents": 2580,
+        "executed_cents": 2580,
+        "applied_cents": 0,
+        "open_cents": 0,
+        "confirmed_at": "2026-11-14T09:00:00+08:00",
+        "statement": "",
+        "week": ""
+      },
+      {
+        "waybill": "W4",
+        "farm": "园甲",
+        "amount_cents": 11610,
+        "executed_cents": 0,
+        "applied_cents": 4700,
+        "open_cents": 6910,
+        "confirmed_at": "2026-11-13T10:00:00+08:00",
+        "statement": "F-A47",
+        "week": "2026-W47"
+      }
+    ],
+    "unallocated_buyer": {
+      "claims": [
+        {
+          "waybill": "W1",
+          "buyer": "买方青",
+          "entitlement_cents": 10620,
+          "next_cents": 2360,
+          "shortage_kg": {
+            "low": 22.0,
+            "high": 28.0
+          },
+          "farm_max_kg": {
+            "园乙": 28.0,
+            "园甲": 28.0
+          }
+        },
+        {
+          "waybill": "W2",
+          "buyer": "买方川",
+          "entitlement_cents": 6450,
+          "next_cents": 450,
+          "shortage_kg": {
+            "low": 15.0,
+            "high": 22.0
+          },
+          "farm_max_kg": {
+            "园乙": 22.0,
+            "园甲": 22.0
+          }
+        }
+      ],
+      "open_credit_by_farm_cents": {
+        "园乙": 1100,
+        "园甲": 0
+      },
+      "open_credit_total_cents": 1100,
+      "claim_gross_total_cents": 17070,
+      "claim_next_total_cents": 2810,
+      "coverable_cents": 1100,
+      "not_coverable_even_best_case_cents": 15970,
+      "assignment": [
+        {
+          "waybill": "W1",
+          "farm": "园乙",
+          "cents": 1100
+        }
+      ],
+      "jointly_feasible": true,
+      "note": "solved as one programme over the material balance and the shared weekly credit; per-claim upper bounds are not added"
+    },
+    "refund_items": [
+      {
+        "waybill": "W1",
+        "farm": "园甲",
+        "unsupported_deduction_cents": 2600,
+        "posted_return_cents": 2000,
+        "outstanding_return_cents": 600,
+        "basis": "该运单没有可确认的果园归属，已执行的扣款按单独返还款项办理，不改写原关账周"
+      }
+    ]
+  },
+  "close": {
+    "identity": {
+      "entitlement_cents": 31260,
+      "paid_cents": 16840,
+      "next_due_cents": 14420,
+      "overpaid_cents": 0,
+      "paid_plus_next_cents": 31260,
+      "check_balances": true,
+      "settled_waybills": [
+        "W1",
+        "W2",
+        "W3",
+        "W4"
+      ]
+    },
+    "quarantined": {
+      "waybills": [],
+      "frozen_paid_cents": 0,
+      "note": "these waybills are outside the closing identity until the record conflict is resolved; no new cash is proposed"
+    },
+    "split_of_entitlement": {
+      "confirmed_to_named_orchard_cents": 14190,
+      "not_yet_attributable_cents": 17070,
+      "reconciles": true
+    },
+    "by_buyer": [
+      {
+        "buyer": "买方川",
+        "waybills": [
+          "W2",
+          "W3"
+        ],
+        "entitlement_cents": 9030,
+        "paid_cents": 8580,
+        "next_due_cents": 450,
+        "confirmed_farm_cents": 2580,
+        "not_attributable_cents": 6450,
+        "held_paid_cents": 0
+      },
+      {
+        "buyer": "买方林",
+        "waybills": [
+          "W4"
+        ],
+        "entitlement_cents": 11610,
+        "paid_cents": 0,
+        "next_due_cents": 11610,
+        "confirmed_farm_cents": 11610,
+        "not_attributable_cents": 0,
+        "held_paid_cents": 0
+      },
+      {
+        "buyer": "买方青",
+        "waybills": [
+          "W1"
+        ],
+        "entitlement_cents": 10620,
+        "paid_cents": 8260,
+        "next_due_cents": 2360,
+        "confirmed_farm_cents": 0,
+        "not_attributable_cents": 10620,
+        "held_paid_cents": 0
+      }
+    ],
+    "by_farm": [
+      {
+        "farm": "园丙",
+        "waybills": [
+          {
+            "waybill": "W3",
+            "amount_cents": 2580
+          }
+        ],
+        "amount_cents": 2580,
+        "deducted_cents": 2580,
+        "newly_applied_cents": 0,
+        "open_cents": 0,
+        "refund_due_cents": 0,
+        "refund_posted_cents": 0,
+        "refund_pending_cents": 0,
+        "refund_outstanding_cents": 0
+      },
+      {
+        "farm": "园乙",
+        "waybills": [],
+        "amount_cents": 0,
+        "deducted_cents": 0,
+        "newly_applied_cents": 0,
+        "open_cents": 0,
+        "refund_due_cents": 0,
+        "refund_posted_cents": 0,
+        "refund_pending_cents": 0,
+        "refund_outstanding_cents": 0
+      },
+      {
+        "farm": "园甲",
+        "waybills": [
+          {
+            "waybill": "W4",
+            "amount_cents": 11610
+          }
+        ],
+        "amount_cents": 11610,
+        "deducted_cents": 2600,
+        "newly_applied_cents": 4700,
+        "open_cents": 6910,
+        "refund_due_cents": 2600,
+        "refund_posted_cents": 2000,
+        "refund_pending_cents": 0,
+        "refund_outstanding_cents": 600
+      }
+    ],
+    "suspense": [
+      {
+        "waybill": "W1",
+        "party": "买方青",
+        "kind": "买方应赔待分责",
+        "cents": 10620,
+        "basis": "短少总量已确认，但没有任何果园的可确认份额；买方应赔照常计算，果园扣款暂挂"
+      },
+      {
+        "waybill": "W2",
+        "party": "买方川",
+        "kind": "买方应赔待分责",
+        "cents": 6450,
+        "basis": "短少总量已确认，但没有任何果园的可确认份额；买方应赔照常计算，果园扣款暂挂"
+      },
+      {
+        "waybill": "W4",
+        "party": "园甲",
+        "kind": "果园责任已确认但货款不足",
+        "cents": 6910,
+        "basis": "可在 F-A47 抵扣后仍有未落地部分，不跨周挪用已关账余额"
+      }
+    ],
+    "orchard_cash": {
+      "posted_deductions_cents": 5180,
+      "posted_returns_cents": 2000,
+      "pending_returns_cents": 0,
+      "refund_due_cents": 2600,
+      "confirmed_but_unsecured_cents": 6910
+    }
+  },
+  "adjustments": [],
+  "next_run": [
+    {
+      "entry": "TOPUP-W1",
+      "waybill": "W1",
+      "party": "买方青",
+      "kind": "补付",
+      "cents": 2360,
+      "authorized_at": "2026-11-17T09:00:00+08:00",
+      "origin_refs": [
+        "AG1",
+        "claims:N11,N12"
+      ],
+      "status": "待办",
+      "source_entry": null
+    },
+    {
+      "entry": "TOPUP-W2",
+      "waybill": "W2",
+      "party": "买方川",
+      "kind": "补付",
+      "cents": 450,
+      "authorized_at": "2026-11-17T09:00:00+08:00",
+      "origin_refs": [
+        "AG2",
+        "claims:N2"
+      ],
+      "status": "待办",
+      "source_entry": null
+    },
+    {
+      "entry": "TOPUP-W4",
+      "waybill": "W4",
+      "party": "买方林",
+      "kind": "补付",
+      "cents": 11610,
+      "authorized_at": "2026-11-17T09:00:00+08:00",
+      "origin_refs": [
+        "AG2",
+        "claims:N4"
+      ],
+      "status": "待办",
+      "source_entry": null
+    },
+    {
+      "entry": "RETURN-W1-园甲",
+      "waybill": "W1",
+      "party": "园甲",
+      "kind": "返还",
+      "cents": 600,
+      "farm_deltas": {
+        "园甲": -600
+      },
+      "status": "待办",
+      "description": "该运单没有可确认的果园归属，已执行的扣款按单独返还款项办理，不改写原关账周"
+    }
+  ],
+  "latest_correction_impact": {
+    "correction": {
+      "ticket": "S2",
+      "parcel": "P2",
+      "from_rev": 1,
+      "to_rev": 2,
+      "reported_at": "2026-11-15T10:00:00+08:00",
+      "from_feasible": true,
+      "to_feasible": false,
+      "affected_waybills": [
+        "W2"
+      ],
+      "changes": [
+        {
+          "waybill": "W2",
+          "shortage_low_kg": [
+            15.0,
+            null
+          ],
+          "shortage_high_kg": [
+            23.0,
+            null
+          ],
+          "confirmed_farm_kg": [
+            0,
+            null
+          ],
+          "entitlement_cents": [
+            6450,
+            null
+          ],
+          "next_cents": [
+            450,
+            null
+          ]
+        }
+      ],
+      "note": "新版与其余记录不相容，已隔离；不按新增短少处理（其余记录只容许 P2 313.00–323.00 kg，新版为 343.00–345.00 kg）"
+    },
+    "latest_by_time": {
+      "ticket": "S2",
+      "parcel": "P2",
+      "from_rev": 2,
+      "to_rev": 3,
+      "reported_at": "2026-11-16T08:00:00+08:00",
+      "from_feasible": false,
+      "to_feasible": true,
+      "affected_waybills": [],
+      "changes": [],
+      "note": "新版本使记录重新自洽"
+    },
+    "latest_with_effect": {
+      "ticket": "S2",
+      "parcel": "P2",
+      "from_rev": 1,
+      "to_rev": 2,
+      "reported_at": "2026-11-15T10:00:00+08:00",
+      "from_feasible": true,
+      "to_feasible": false,
+      "affected_waybills": [
+        "W2"
+      ],
+      "changes": [
+        {
+          "waybill": "W2",
+          "shortage_low_kg": [
+            15.0,
+            null
+          ],
+          "shortage_high_kg": [
+            23.0,
+            null
+          ],
+          "confirmed_farm_kg": [
+            0,
+            null
+          ],
+          "entitlement_cents": [
+            6450,
+            null
+          ],
+          "next_cents": [
+            450,
+            null
+          ]
+        }
+      ],
+      "note": "新版与其余记录不相容，已隔离；不按新增短少处理（其余记录只容许 P2 313.00–323.00 kg，新版为 343.00–345.00 kg）"
+    },
+    "affected": [
+      {
+        "waybill": "W2",
+        "party": "买方川",
+        "before_cents": 450,
+        "after_cents": null,
+        "delta_cents": null,
+        "current_executable_cents": 450,
+        "quarantined_by_this_revision": true,
+        "effect": "该版被隔离，不产生新短少；可办金额维持原值",
+        "farms_touched": [],
+        "shared_credit": false,
+        "pending_item": "TOPUP-W2"
+      }
+    ],
+    "untouched_waybills": [
+      "W1",
+      "W3",
+      "W4"
+    ],
+    "note": "只列实际变动的运单；无共同果园、无共用货款的运单不重新质疑",
+    "scope_note": "最近一次更正在时间上最新，但未改变任何金额"
+  }
+}
